@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김지은 | Web Publisher Portfolio</title>
+  <meta name="description" content="웹 접근성과 반응형에 강한 웹 퍼블리셔 김지은의 포트폴리오입니다.">
+  <meta property="og:title" content="김지은 | Web Publisher Portfolio">
+  <meta property="og:description" content="웹 표준, 접근성, 반응형을 지키는 퍼블리셔">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+
+  <!-- header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a class="header__logo" href="#hero" aria-label="김지은 포트폴리오 홈">hong<span>.</span>pub</a>
+      <nav class="gnb" id="gnb" aria-label="주요 메뉴">
+        <ul class="gnb__list">
+          <li class="gnb__item"><a class="gnb__link" href="#about">About</a></li>
+          <li class="gnb__item"><a class="gnb__link" href="#skills">Skills</a></li>
+          <li class="gnb__item"><a class="gnb__link" href="#works">Works</a></li>
+          <li class="gnb__item"><a class="gnb__link" href="#principles">Principles</a></li>
+          <li class="gnb__item"><a class="gnb__link gnb__link--cta" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="header__toggle" type="button" aria-expanded="false" aria-controls="gnb" aria-label="메뉴 열기">
+        <span class="header__toggle-bar"></span>
+        <span class="header__toggle-bar"></span>
+        <span class="header__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+  <!-- //header -->
+
+  <main id="main">
+    <!-- hero -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Web Publisher · 5 years</p>
+        <h1 class="hero__title">
+          <span class="hero__line"><em class="hero__point">빠르게</em> 구현하고,</span>
+          <span class="hero__line"><em class="hero__point">꼼꼼하게</em> 완성합니다.</span>
+        </h1>
+        <p class="hero__desc">
+          디자인의 의도를 정확하게 이해하고, 다양한 디바이스에 <strong>최적화된 웹을 구현</strong>합니다.
+          <br>작은 오류도 놓치지 않는 <strong>꼼꼼한 검수와 효율적인 유지보수</strong>까지 생각하는 웹 퍼블리셔입니다.
+        </p>
+        <div class="hero__btns">
+          <a class="btn btn--primary" href="#works">작업물 보기</a>
+          <a class="btn btn--ghost" href="#contact">연락하기</a>
+        </div>
+        <ul class="hero__stats">
+          <li class="hero__stat"><strong class="hero__num" data-count="5">0</strong><span class="hero__label">년 경력</span></li>
+          <li class="hero__stat"><strong class="hero__num">PC·Mobile</strong><span class="hero__label">반응형 구현 & 다양한 디바이스 대응</span></li>
+          <li class="hero__stat"><strong class="hero__num">다양한</strong><span class="hero__label">프로젝트 구축 및 유지보수</span></li>
+        </ul>
+      </div>
+    </section>
+    <!-- //hero -->
+
+    <!-- about -->
+    <section class="section about" id="about">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">About</p>
+          <h2 class="section__title">소개</h2>
+        </header>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>약 5년간 다양한 웹사이트 구축 및 유지보수 프로젝트를 수행하며, <br>디자인 시안을 웹 환경에 맞게 구현하는 실무 경험을 쌓았습니다.</p>
+            <p>빠른 작업 속도와 꼼꼼한 검수를 강점으로, 단순히 화면을 구현하는 데 그치지 않고 반응형 레이아웃, 크로스 브라우징, 기능 동작까지 확인하며 완성도를 높입니다.</p>
+            <p>또한 반복되는 작업을 효율적으로 개선하고 공통 검수 기준을 정립하는 등, <br>작업 품질과 협업 효율을 함께 높이는 퍼블리셔를 지향합니다.</p>
+          </div>
+          <dl class="about__info reveal">
+            <div class="about__row"><dt>Name</dt><dd>김지은</dd></div>
+            <!-- <div class="about__row"><dt>Role</dt><dd>Web Publisher</dd></div> -->
+            <div class="about__row"><dt>Call</dt><dd>010-2443-7150</dd></div>
+            <div class="about__row"><dt>Email</dt><dd><a href="mailto:aoghkwldms@naver.com">aoghkwldms@naver.com</a></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <!-- //about -->
+
+    <!-- skills -->
+    <section class="section section--gray skills" id="skills">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">Skills</p>
+          <h2 class="section__title">기술 스택</h2>
+        </header>
+        <ul class="skills__list">
+          <li class="skills__card reveal">
+            <h3 class="skills__name">Markup</h3>
+            <p class="skills__desc">시맨틱 HTML5, WAI-ARIA, 웹 접근성(KWCAG 2.2)</p>
+            <ul class="tags"><li class="tags__item">HTML5</li><li class="tags__item">ARIA</li><li class="tags__item">SEO</li></ul>
+          </li>
+          <li class="skills__card reveal">
+            <h3 class="skills__name">Style</h3>
+            <p class="skills__desc">BEM 설계, 반응형, Flex/Grid, 크로스브라우징</p>
+            <ul class="tags"><li class="tags__item">CSS3</li><li class="tags__item">SCSS</li><li class="tags__item">BEM</li></ul>
+          </li>
+          <li class="skills__card reveal">
+            <h3 class="skills__name">Script</h3>
+            <p class="skills__desc">UI 인터랙션, 슬라이더·모달·탭 등 공통 컴포넌트</p>
+            <ul class="tags"><li class="tags__item">JavaScript</li><li class="tags__item">jQuery</li><li class="tags__item">Swiper</li></ul>
+          </li>
+          <li class="skills__card reveal">
+            <h3 class="skills__name">Tools</h3>
+            <p class="skills__desc">디자인 협업, 형상 관리, 빌드 환경</p>
+            <ul class="tags"><li class="tags__item">Figma</li><li class="tags__item">Git</li><li class="tags__item">VS Code</li></ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- //skills -->
+
+    <!-- works -->
+    <section class="section works" id="works">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">Works</p>
+          <h2 class="section__title">작업물</h2>
+        </header>
+
+        <div class="works__filter reveal" role="group" aria-label="작업물 필터">
+          <button class="works__filter-btn is-active" type="button" data-filter="all" aria-pressed="true">전체</button>
+          <button class="works__filter-btn" type="button" data-filter="corp" aria-pressed="false">반응형</button>
+          <button class="works__filter-btn" type="button" data-filter="shop" aria-pressed="false">쇼핑몰</button>
+          <!-- <button class="works__filter-btn" type="button" data-filter="app" aria-pressed="false">웹앱</button> -->
+        </div>
+
+        <ul class="works__list">
+          <li class="card reveal" data-category="corp">
+            <a class="card__link" href="https://onnuribio.com/brand.php" target="_blank" aria-label="DSPNP">
+              <div class="card__thumb card__thumb--1"><!-- <span class="card__type">Responsive</span> --></div>
+              <div class="card__body">
+                <h3 class="card__title">온누리바이오생약</h3>
+                <!-- <ul class="tags"><li class="tags__item">다국어</li></ul> -->
+              </div>
+            </a>
+          </li>
+          <li class="card reveal" data-category="corp">
+            <a class="card__link" href="https://nobiliaire.kr/" target="_blank" aria-label="DSPNP">
+              <div class="card__thumb card__thumb--2"><!-- <span class="card__type">Responsive</span> --></div>
+              <div class="card__body">
+                <h3 class="card__title">노블리에</h3>
+                <!-- <ul class="tags"><li class="tags__item">다국어</li></ul> -->
+              </div>
+            </a>
+          </li>
+          <li class="card reveal" data-category="corp">
+            <a class="card__link" href="https://gunsanstayhotel.com/" target="_blank" aria-label="DSPNP">
+              <div class="card__thumb card__thumb--3"><!-- <span class="card__type">Responsive</span> --></div>
+              <div class="card__body">
+                <h3 class="card__title">군산스테이</h3>
+                <!-- <p class="card__desc">반응형 · 웹 접근성 인증 마크 획득 · 다국어 대응</p> -->
+                <!-- <ul class="tags"><li class="tags__item">다국어</li></ul> -->
+              </div>
+            </a>
+          </li>
+          <li class="card reveal" data-category="shop">
+            <a class="card__link" href="https://aoucosmetics.com/" target="_blank" aria-label="에이오유(헤메코)">
+              <div class="card__thumb card__thumb--4"><!-- <span class="card__type">Shopping</span> --></div>
+              <div class="card__body">
+                <h3 class="card__title">에이오유(헤메코)</h3>
+                <!-- <p class="card__desc">상품 목록·상세·장바구니 UI 공통 컴포넌트화</p> -->
+                <!-- <ul class="tags"><li class="tags__item">Cafe24</li><li class="tags__item">반응형</li></ul> -->
+              </div>
+            </a>
+          </li>
+          <li class="card reveal" data-category="shop">
+            <a class="card__link" href="https://perfumerh.co.kr/" target="_blank" aria-label="퍼퓨머 H">
+              <div class="card__thumb card__thumb--5"><!-- <span class="card__type">Shopping</span> --></div>
+              <div class="card__body">
+                <h3 class="card__title">퍼퓨머 H</h3>
+                <!-- <ul class="tags"><li class="tags__item">Cafe24</li><li class="tags__item">반응형</li></ul> -->
+              </div>
+            </a>
+          </li>
+          <li class="card reveal" data-category="corp">
+            <a class="card__link" href="https://dspnp.com/" target="_blank" aria-label="DSPNP">
+              <div class="card__thumb card__thumb--6"><!-- <span class="card__type">Responsive</span> --></div>
+              <div class="card__body">
+                <h3 class="card__title">DSPNP</h3>
+                <!-- <p class="card__desc">반응형 · 웹 접근성 인증 마크 획득 · 다국어 대응</p> -->
+                <!-- <ul class="tags"><li class="tags__item">다국어</li></ul> -->
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- //works -->
+
+    <!-- principles -->
+    <section class="section section--dark principles" id="principles">
+      <div class="section__inner">
+        <header class="section__head section__head--light reveal">
+          <p class="section__eyebrow">Principles</p>
+          <h2 class="section__title">작업 원칙</h2>
+        </header>
+        <ol class="principles__list">
+          <li class="principles__item reveal">
+            <span class="principles__no">01</span>
+            <h3 class="principles__name">Accurate Implementation</h3>
+            <p class="principles__desc"><strong>디자인 의도를 정확하게 구현합니다.</strong><br>디자인 시안의 레이아웃, 폰트, 간격, 인터랙션을 세밀하게 확인하고 의도에 맞게 구현합니다.</p>
+          </li>
+          <li class="principles__item reveal">
+            <span class="principles__no">02</span>
+            <h3 class="principles__name">Responsive & Cross-Browser</h3>
+            <p class="principles__desc"><strong>다양한 환경에서 일관된 화면을 구현합니다.</strong><br>PC와 모바일의 다양한 해상도 및 브라우저 환경을 고려하고, 화면 깨짐과 동작 오류를 점검합니다.</p>
+          </li>
+          <li class="principles__item reveal">
+            <span class="principles__no">03</span>
+            <h3 class="principles__name">Quality Check</h3>
+            <p class="principles__desc"><strong>작은 오류도 놓치지 않고 검수합니다.</strong><br> 오탈자, 이미지 누락, 레이아웃 오류부터 주요 기능과 사용자 흐름까지 체크리스트를 기반으로 확인합니다.</p>
+          </li>
+          <li class="principles__item reveal">
+            <span class="principles__no">04</span>
+            <h3 class="principles__name">Efficient & Maintainable</h3>
+            <p class="principles__desc"><strong>효율적인 작업과 유지보수를 고려합니다.</strong><br>공통 요소와 반복 작업을 체계적으로 정리하고, 일관된 코드 구조를 통해 수정과 관리가 용이하도록 작업합니다.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <!-- //principles -->
+
+    <!-- contact -->
+    <section class="section contact" id="contact">
+      <div class="section__inner">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">Contact</p>
+          <h2 class="section__title">함께 일해요</h2>
+        </header>
+        <div class="contact__box reveal">
+          <p class="contact__text">새로운 기회와 협업 제안은 언제든 환영합니다.</p>
+          <a class="contact__mail" href="mailto:aoghkwldms@naver.com">aoghkwldms@naver.com</a>
+          <!-- <ul class="contact__links">
+            <li><a class="contact__link" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a class="contact__link" href="https://velog.io/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+            <li><a class="contact__link" href="#" target="_blank" rel="noopener noreferrer">Resume (PDF)</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </section>
+    <!-- //contact -->
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copy">&copy; <span id="year">2026</span> Kim Jieun. All rights reserved.</p>
+      <button class="footer__top" type="button" aria-label="맨 위로 이동">TOP ↑</button>
+    </div>
+  </footer>
+  <!-- //footer -->
+
+  <script src="js/main.js"></script>
+</body>
+</html>
